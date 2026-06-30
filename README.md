@@ -144,7 +144,20 @@ The project was designed to:
 
 ## Technology Stack
 
-*Coming Soon*
+The project was developed using a combination of programming, database and business intelligence tools to support the complete analytics workflow.
+
+| Technology | Role in the Project |
+|------------|------------------------|
+| **Python** | Cleaned and preprocessed raw e-commerce datasets, handled missing values, standardized data formats and performed exploratory data analysis (EDA). |
+| **Pandas** | Used for data manipulation, cleaning, merging datasets and feature engineering. |
+| **NumPy** | Supported numerical operations and data transformations during preprocessing. |
+| **PostgreSQL** | Stored the cleaned data in a structured relational database for efficient querying and reporting. |
+| **SQL** | Created tables, views and analytical queries to extract meaningful business insights and prepare reporting datasets. |
+| **Power BI** | Developed interactive dashboards, KPIs and visualizations for business performance analysis. |
+| **DAX** | Created calculated measures and KPIs to support dynamic reporting and dashboard interactivity. |
+| **Visual Studio Code** | Primary IDE used for Python scripting, SQL development and project management. |
+| **pgAdmin 4** | Managed the PostgreSQL database, executed SQL scripts and validated query results. |
+| **Git & GitHub** | Used for version control, repository management and project documentation. |
 
 ---
 
