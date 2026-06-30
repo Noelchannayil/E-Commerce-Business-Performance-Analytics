@@ -51,7 +51,45 @@ Rather than focusing only on dashboard creation, this project demonstrates the c
 
 ## Dashboard Preview
 
-*Coming Soon*
+The Power BI report consists of five interactive dashboards, each designed to analyze a different aspect of the e-commerce business. Together, these dashboards provide a comprehensive view of business performance, customer behavior, product performance, sales trends and operational efficiency.
+
+### Executive Dashboard
+
+Provides a high-level summary of business performance including revenue, orders, customers, average order value, monthly revenue trends and top-performing states and product categories.
+
+![Executive Dashboard](Dashboard%20Screenshots/01_Executive_Dashboard.png)
+
+---
+
+### Customer Analytics Dashboard
+
+Focuses on customer acquisition, repeat customers, geographical distribution and revenue contribution across different cities and states to better understand customer behavior.
+
+![Customer Analytics Dashboard](Dashboard%20Screenshots/02_Customer_Analytics.png)
+
+---
+
+### Product Analytics Dashboard
+
+Analyzes product categories, seller performance, category-wise revenue contribution and product performance to identify high-performing products and growth opportunities.
+
+![Product Analytics Dashboard](Dashboard%20Screenshots/03_Product_Analytics.png)
+
+---
+
+### Sales & Order Intelligence Dashboard
+
+Monitors sales trends, order volume, payment methods, delivery performance and operational KPIs to evaluate overall business efficiency.
+
+![Sales & Order Intelligence Dashboard](Dashboard%20Screenshots/04_Sales_Order_Intelligence.png)
+
+---
+
+### Insights & Recommendations Dashboard
+
+Summarizes the overall analysis using business insights, Pareto analysis, decomposition analysis and strategic recommendations to support data-driven decision-making.
+
+![Insights & Recommendations Dashboard](Dashboard%20Screenshots/05_Insights_Recommendations.png)
 
 ---
 
