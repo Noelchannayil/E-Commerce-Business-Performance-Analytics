@@ -163,8 +163,88 @@ The project was developed using a combination of programming, database and busin
 
 ## Project Architecture
 
-*Coming Soon*
+The project follows a structured end-to-end analytics workflow that transforms raw e-commerce transaction data into meaningful business insights. Each stage of the pipeline prepares, processes, and enriches the data before passing it to the next stage, ensuring reliable analysis, interactive reporting, and data-driven decision-making.
 
+```mermaid
+flowchart LR
+
+%% =====================================================
+%% E-COMMERCE BUSINESS PERFORMANCE ANALYTICS ARCHITECTURE
+%% =====================================================
+
+A["<b>Data Source</b><hr/>
+<b>Raw E-Commerce Dataset</b><br/><br/>
+• Customers<br/>
+• Orders<br/>
+• Products<br/>
+• Payments<br/>
+• Sellers"]
+
+B["<b>Data Processing</b><hr/>
+<b>Python</b><br/><br/>
+• Data Cleaning<br/>
+• Missing Value Handling<br/>
+• Data Transformation<br/>
+• Exploratory Data Analysis"]
+
+C["<b>Data Storage</b><hr/>
+<b>PostgreSQL</b><br/><br/>
+• Relational Database<br/>
+• Tables<br/>
+• Relationships"]
+
+D["<b>Business Analytics</b><hr/>
+<b>SQL Analytics</b><br/><br/>
+• SQL Queries<br/>
+• SQL Views<br/>
+• KPI Calculations"]
+
+E["<b>Business Intelligence</b><hr/>
+<b>Power BI</b><br/><br/>
+• Data Model<br/>
+• DAX Measures<br/>
+• Interactive Reports"]
+
+F["<b>Reporting</b><hr/>
+<b>Interactive Dashboards</b><br/><br/>
+• Executive Overview<br/>
+• Customer Analytics<br/>
+• Product Analytics<br/>
+• Sales & Order Intelligence<br/>
+• Insights & Recommendations"]
+
+G["<b>Business Outcome</b><hr/>
+<b>Business Insights</b><br/><br/>
+• Revenue Analysis<br/>
+• Customer Behaviour<br/>
+• Product Performance<br/>
+• Strategic Recommendations"]
+
+%% ==========================
+%% FLOW
+%% ==========================
+
+A --> B
+B --> C
+C --> D
+D --> E
+E --> F
+F --> G
+
+%% ==========================
+%% STYLING
+%% ==========================
+
+style A fill:#E8F4FD,stroke:#1565C0,stroke-width:2px,color:#000
+style B fill:#EAF7EC,stroke:#2E7D32,stroke-width:2px,color:#000
+style C fill:#FFF8E6,stroke:#F9A825,stroke-width:2px,color:#000
+style D fill:#F4ECFB,stroke:#6A1B9A,stroke-width:2px,color:#000
+style E fill:#E8F7FD,stroke:#0277BD,stroke-width:2px,color:#000
+style F fill:#FFF2E8,stroke:#EF6C00,stroke-width:2px,color:#000
+style G fill:#FDECF2,stroke:#C2185B,stroke-width:2px,color:#000
+
+linkStyle default stroke:#616161,stroke-width:2px
+```
 ---
 
 ## Dataset Overview
