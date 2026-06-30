@@ -446,7 +446,46 @@ Summarizes key analytical findings and provides actionable business recommendati
 
 ## Key Business Insights
 
-*Coming Soon*
+The analysis uncovered several important trends across sales performance, customer behavior, product demand and operational efficiency. These insights can help stakeholders make informed business decisions and identify opportunities for growth.
+
+### Revenue & Sales Performance
+
+- Generated **15.86M** in total revenue from **99.44K** customer orders.
+- Revenue exhibited a steady upward trend throughout the analysis period, with peak sales observed during seasonal shopping periods.
+- The average order value remained stable at **159.47**, indicating consistent customer purchasing behavior.
+
+---
+
+### Customer Insights
+
+- São Paulo (SP) contributed the highest share of total revenue, making it the strongest regional market.
+- Most customers were first-time buyers, while repeat customers represented a relatively small percentage, highlighting an opportunity to improve customer retention.
+- Revenue was concentrated across a few major cities, suggesting the potential for geographical market expansion.
+
+---
+
+### Product & Seller Performance
+
+- A small number of product categories generated a significant share of overall revenue, as highlighted by the Pareto Analysis.
+- Categories such as **Beauty & Health**, **Watches & Gifts** and **Bed, Bath & Table** consistently ranked among the highest revenue contributors.
+- Seller revenue distribution indicated that only a limited number of sellers contributed substantially to total sales, presenting opportunities to strengthen mid-performing sellers.
+
+---
+
+### Payment & Delivery Insights
+
+- Credit Card was the most preferred payment method, accounting for the majority of completed transactions.
+- **92.38%** of customer orders were delivered on time, indicating strong logistics performance.
+- Late deliveries represented a relatively small percentage of total orders but remain an area for continuous operational improvement.
+
+---
+
+### Business Recommendations
+
+- Revenue concentration within a limited number of product categories suggests opportunities for product diversification.
+- Improving customer retention through loyalty programs and personalized marketing could increase repeat purchases.
+- Expanding high-performing categories while supporting emerging categories can create sustainable long-term growth.
+- Monitoring delivery performance and seller efficiency can further enhance customer satisfaction and operational excellence.
 
 ---
 
