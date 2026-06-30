@@ -324,26 +324,13 @@ The cleaned datasets were imported into PostgreSQL, where relational tables were
 | **Analytical Queries** | Calculate KPIs, revenue metrics, customer insights and sales trends. |
 | **Reporting Layer** | Provide optimized datasets for Power BI dashboards. |
 
-### Database Workflow
+### Entity Relationship Diagram
 
-```text
-Raw CSV Files
-        │
-        ▼
-Python Data Cleaning
-        │
-        ▼
-PostgreSQL Database
-        │
-        ▼
-Relational Tables
-        │
-        ▼
-SQL Views & Analytical Queries
-        │
-        ▼
-Power BI Dashboards
-```
+The PostgreSQL database was designed using a relational schema that models the key entities of the e-commerce business, including customers, orders, products, sellers, payments and reviews. The relationships between these entities ensure data integrity, reduce redundancy and enable efficient SQL analysis for business reporting and Power BI dashboard development.
+
+<p align="center">
+  <img src="Database_Design/er_diagram.png" alt="Entity Relationship Diagram" width="100%">
+</p>
 
 ### Key Database Features
 
