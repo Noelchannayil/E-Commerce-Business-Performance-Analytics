@@ -283,7 +283,28 @@ After data cleaning and transformation, the individual datasets were merged into
 
 ## ETL Pipeline
 
-*Coming Soon*
+The project follows a structured ETL (Extract, Transform, Load) pipeline that converts raw e-commerce transaction data into a clean, structured and analytics-ready dataset. Each stage of the workflow ensures data quality, consistency and efficient reporting, enabling accurate business analysis and interactive dashboard development.
+
+### ETL Workflow
+
+| Phase | Process | Tools Used |
+|--------|---------|------------|
+| **Extract** | Imported nine raw CSV datasets containing customer, order, product, payment, seller and review information. | Python, Pandas |
+| **Transform** | Cleaned missing values, standardized column names and data types, merged related datasets, created new features and performed exploratory data analysis (EDA). | Python, Pandas, NumPy |
+| **Load** | Loaded the processed dataset into PostgreSQL by creating relational tables and importing cleaned data. | PostgreSQL, pgAdmin 4 |
+| **Analyze** | Developed SQL queries and analytical views to calculate KPIs and prepare datasets for business reporting. | SQL, PostgreSQL |
+| **Visualize** | Connected PostgreSQL to Power BI, built the data model, created DAX measures and developed interactive dashboards. | Power BI, DAX |
+
+### ETL Process Summary
+
+1. Imported raw e-commerce datasets into Python.
+2. Cleaned and preprocessed the data by handling missing values and correcting data formats.
+3. Merged related datasets into a unified analytical dataset.
+4. Performed exploratory data analysis (EDA) to validate data quality and identify business trends.
+5. Loaded the processed dataset into PostgreSQL.
+6. Created relational tables and analytical SQL views.
+7. Connected PostgreSQL to Power BI.
+8. Developed DAX measures, KPIs and interactive dashboards for business reporting.
 
 ---
 
