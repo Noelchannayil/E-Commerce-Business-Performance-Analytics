@@ -488,10 +488,32 @@ The analysis uncovered several important trends across sales performance, custom
 - Monitoring delivery performance and seller efficiency can further enhance customer satisfaction and operational excellence.
 
 ---
-
 ## Repository Structure
 
-*Coming Soon*
+```text
+E-Commerce-Business-Performance-Analytics/
+│
+├── Architecture/
+│   ├── project_architecture.png
+│   └── README.md
+│
+├── Dashboard_Screenshots/
+│   ├── 01_Executive_Dashboard.png
+│   ├── 02_Customer_Analytics.png
+│   ├── 03_Product_Analytics.png
+│   ├── 04_Sales_Order_Intelligence.png
+│   ├── 05_Insights_Recommendations.png
+│   └── README.md
+│
+├── Database_Design/
+│   ├── er_diagram.png
+│   └── README.md
+│
+├── .gitignore
+└── README.md
+```
+
+The repository is organized into dedicated folders for architecture diagrams, database design, dashboard screenshots and project documentation. This structure improves readability, simplifies navigation and clearly represents each stage of the end-to-end analytics workflow.
 
 ---
 
