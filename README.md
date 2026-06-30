@@ -95,7 +95,15 @@ Summarizes the overall analysis using business insights, Pareto analysis, decomp
 
 ## About the Project
 
-*Coming Soon*
+## About the Project
+
+This project was built to analyze the performance of an e-commerce business by transforming raw transactional data into meaningful business insights. It follows the complete analytics lifecycle, from data preparation and database design to interactive dashboard development and business reporting.
+
+Using publicly available e-commerce datasets, I developed an end-to-end analytics solution to answer important business questions related to customers, products, sales performance, payment behavior, and delivery operations. The objective was not only to visualize business performance but also to uncover trends, identify opportunities and generate insights that support better business decisions.
+
+The project begins with raw e-commerce datasets, which are cleaned and prepared using **Python**. The processed data is then stored in **PostgreSQL**, where SQL is used to create tables, views and business queries for reporting. Finally, the data is connected to **Power BI**, where interactive dashboards are developed using DAX measures to monitor key business metrics.
+
+The final solution consists of five interactive dashboards that provide a comprehensive view of business performance, helping stakeholders monitor revenue, customer behavior, product performance, sales trends, payment preferences and delivery efficiency from a single reporting platform.
 
 ---
 
