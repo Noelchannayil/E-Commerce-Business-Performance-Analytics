@@ -561,4 +561,13 @@ Explore the documentation sequentially to understand the complete analytics life
 
 ## Future Enhancements
 
-*Coming Soon*
+While this project demonstrates a complete end-to-end business analytics workflow, there are several opportunities for future improvements:
+
+- Integrate real-time data pipelines for live business performance monitoring.
+- Deploy interactive dashboards using Power BI Service for online reporting and collaboration.
+- Build predictive models to forecast sales, customer demand and revenue trends.
+- Develop customer segmentation using machine learning techniques.
+- Add advanced business KPIs and drill-through dashboard functionality.
+- Automate the ETL pipeline using workflow orchestration tools.
+- Expand the database schema to support inventory, supplier and marketing analytics.
+- Create executive reports with automated alerts and scheduled dashboard refreshes.
