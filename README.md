@@ -342,10 +342,105 @@ The PostgreSQL database was designed using a relational schema that models the k
 - Connected PostgreSQL to Power BI for real-time querying and interactive dashboard development.
 
 ---
-
 ## Dashboard Overview
 
-*Coming Soon*
+The final Power BI solution consists of five interactive dashboards that provide a comprehensive view of business performance. Each dashboard focuses on a specific business area, enabling stakeholders to monitor KPIs, identify trends and make data-driven decisions.
+
+---
+
+### 1. Executive Dashboard
+
+Provides a high-level summary of the overall business performance through key performance indicators, revenue trends and top-performing categories.
+
+**Key Highlights**
+- Total Revenue
+- Total Orders
+- Total Customers
+- Average Order Value
+- Monthly Revenue Trend
+- Top Customer States by Revenue
+- Top Product Categories by Revenue
+
+<p align="center">
+  <img src="Dashboard Screenshots/01_Executive_Dashboard.png" width="100%">
+</p>
+
+---
+
+### 2. Customer Analytics Dashboard
+
+Focuses on customer acquisition, repeat customers, geographical distribution and revenue contribution across different cities and states.
+
+**Key Highlights**
+- Total Customers
+- New vs Repeat Customers
+- Top Revenue City
+- Customer Composition
+- Top Customer Cities
+- Top Customer States
+- Revenue Contribution by State
+
+<p align="center">
+  <img src="Dashboard Screenshots/02_Customer_Analytics.png" width="100%">
+</p>
+
+---
+
+### 3. Product Analytics Dashboard
+
+Analyzes product categories, seller performance and category-wise revenue to identify high-performing products and growth opportunities.
+
+**Key Highlights**
+- Total Product Categories
+- Total Sellers
+- Top Product Category
+- Top Seller Share
+- Category Revenue Analysis
+- Seller Performance
+- Category Revenue Distribution
+- Category Performance Matrix
+
+<p align="center">
+  <img src="Dashboard Screenshots/03_Product_Analytics.png" width="100%">
+</p>
+
+---
+
+### 4. Sales & Order Intelligence Dashboard
+
+Monitors order performance, delivery efficiency, payment preferences and monthly sales trends to evaluate operational performance.
+
+**Key Highlights**
+- Total Orders
+- Average Delivery Days
+- Late Delivery Percentage
+- Most Used Payment Method
+- Monthly Orders Trend
+- Orders vs Revenue Trend
+- Payment Method Distribution
+- Order Status Distribution
+- On-Time Delivery Performance
+
+<p align="center">
+  <img src="Dashboard Screenshots/04_Sales_Order_Intelligence.png" width="100%">
+</p>
+
+---
+
+### 5. Insights & Recommendations Dashboard
+
+Summarizes key analytical findings and provides actionable business recommendations to support strategic decision-making.
+
+**Key Highlights**
+- Revenue Contribution Analysis
+- Pareto Analysis
+- Executive Insights
+- Strategic Recommendations
+- Business Growth Opportunities
+
+<p align="center">
+  <img src="Dashboard Screenshots/05_Insights_Recommendations.png" width="100%">
+</p>
 
 ---
 
