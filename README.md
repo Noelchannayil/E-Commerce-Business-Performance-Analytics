@@ -95,8 +95,6 @@ Summarizes the overall analysis using business insights, Pareto analysis, decomp
 
 ## About the Project
 
-## About the Project
-
 This project was built to analyze the performance of an e-commerce business by transforming raw transactional data into meaningful business insights. It follows the complete analytics lifecycle, from data preparation and database design to interactive dashboard development and business reporting.
 
 Using publicly available e-commerce datasets, I developed an end-to-end analytics solution to answer important business questions related to customers, products, sales performance, payment behavior, and delivery operations. The objective was not only to visualize business performance but also to uncover trends, identify opportunities and generate insights that support better business decisions.
@@ -127,7 +125,20 @@ To address these challenges, this project brings together data from multiple e-c
 
 ## Project Objectives
 
-*Coming Soon*
+The primary objective of this project was to build an end-to-end business analytics solution that converts raw e-commerce data into meaningful insights for business decision-making. The project focuses on transforming raw business data into meaningful insights through data cleaning, SQL analysis, and interactive dashboard reporting.
+
+The project was designed to:
+
+- Clean and preprocess raw e-commerce datasets to ensure data quality and consistency.
+- Design a structured PostgreSQL database for efficient data storage and querying.
+- Perform SQL-based analysis to extract meaningful business insights.
+- Develop interactive Power BI dashboards to monitor key business performance indicators (KPIs).
+- Analyze customer behavior, purchasing patterns, and geographic sales distribution.
+- Evaluate product category performance and seller contributions to overall revenue.
+- Monitor sales trends, payment preferences and order delivery performance.
+- Identify business trends, growth opportunities and operational improvement areas.
+- Present insights through intuitive visualizations that support data-driven decision-making.
+- Deliver strategic recommendations based on analytical findings.
 
 ---
 
