@@ -310,7 +310,49 @@ The project follows a structured ETL (Extract, Transform, Load) pipeline that co
 
 ## Database Design
 
-*Coming Soon*
+A relational PostgreSQL database was designed to store the cleaned e-commerce data and support efficient analytical querying. The database structure enables data integrity, minimizes redundancy and provides a scalable foundation for business reporting and dashboard development.
+
+The cleaned datasets were imported into PostgreSQL, where relational tables were created using primary and foreign key relationships. SQL queries and analytical views were then developed to prepare reporting datasets for Power BI.
+
+### Database Components
+
+| Component | Purpose |
+|-----------|---------|
+| **Raw Tables** | Store the cleaned transactional data imported from Python. |
+| **Relational Tables** | Organize customer, order, product, seller and payment data using structured relationships. |
+| **SQL Views** | Simplify complex business queries and prepare reporting datasets. |
+| **Analytical Queries** | Calculate KPIs, revenue metrics, customer insights and sales trends. |
+| **Reporting Layer** | Provide optimized datasets for Power BI dashboards. |
+
+### Database Workflow
+
+```text
+Raw CSV Files
+        │
+        ▼
+Python Data Cleaning
+        │
+        ▼
+PostgreSQL Database
+        │
+        ▼
+Relational Tables
+        │
+        ▼
+SQL Views & Analytical Queries
+        │
+        ▼
+Power BI Dashboards
+```
+
+### Key Database Features
+
+- Designed a relational database schema for efficient data storage.
+- Created normalized tables to reduce data redundancy.
+- Established relationships between business entities using primary and foreign keys.
+- Developed SQL views to simplify business reporting.
+- Executed analytical SQL queries to calculate KPIs and business metrics.
+- Connected PostgreSQL to Power BI for real-time querying and interactive dashboard development.
 
 ---
 
