@@ -249,7 +249,35 @@ linkStyle default stroke:#616161,stroke-width:2px
 
 ## Dataset Overview
 
-*Coming Soon*
+The project is based on the **Brazilian E-Commerce Public Dataset (Olist)**, which contains transactional data from a multi-category online marketplace. The dataset captures the complete customer purchasing journey, from order placement and payment to product delivery and customer reviews.
+
+The original dataset consists of multiple related CSV files, each representing a different business entity. These datasets were cleaned, transformed and merged into a unified analytical dataset for SQL analysis and Power BI reporting.
+
+### Source Datasets
+
+| Dataset | Description |
+|----------|-------------|
+| **Customers** | Customer details, unique customer identifiers and location information. |
+| **Orders** | Order lifecycle, purchase timestamps, delivery status and shipping dates. |
+| **Order Items** | Product-level information for each order, including seller details and item pricing. |
+| **Order Payments** | Payment methods, installment information and payment values. |
+| **Order Reviews** | Customer review scores and review timestamps. |
+| **Products** | Product categories and product attributes. |
+| **Sellers** | Seller information and geographic locations. |
+| **Geolocation** | Customer and seller location data based on ZIP codes. |
+| **Product Category Translation** | Translation of Portuguese product category names into English. |
+
+### Final Dataset Summary
+
+After data cleaning and transformation, the individual datasets were merged into a single analytical dataset that was used for SQL analysis and Power BI dashboard development.
+
+| Attribute | Value |
+|-----------|------:|
+| **Source Dataset** | Olist Brazilian E-Commerce Dataset |
+| **Number of Source Files** | 9 CSV Files |
+| **Final Dataset Size** | **118,434 Rows × 33 Columns** |
+| **Primary Business Domain** | E-Commerce |
+| **Analysis Period** | September 2016 – August 2018 |
 
 ---
 
