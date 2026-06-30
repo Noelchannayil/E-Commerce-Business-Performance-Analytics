@@ -109,7 +109,19 @@ The final solution consists of five interactive dashboards that provide a compre
 
 ## Business Problem
 
-*Coming Soon*
+E-commerce businesses process thousands of customer orders, payments and product transactions every day. While this data contains valuable information, it is often spread across multiple datasets, making it difficult to gain a complete view of business performance.
+
+Without a centralized analytics solution, decision-makers may struggle to answer important business questions such as:
+
+- Which product categories generate the highest revenue?
+- Which states and cities contribute the most to overall sales?
+- How are revenue and order volumes changing over time?
+- Which payment methods are most preferred by customers?
+- How efficient is the order delivery process?
+- Which products and sellers contribute the most to business growth?
+- What business areas require improvement to increase revenue and customer satisfaction?
+
+To address these challenges, this project brings together data from multiple e-commerce datasets into a single reporting solution. The final dashboards provide stakeholders with a clear view of business performance, enabling them to monitor key metrics, identify trends, evaluate operational efficiency and make informed business decisions with confidence.
 
 ---
 
