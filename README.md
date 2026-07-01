@@ -494,10 +494,10 @@ The analysis uncovered several important trends across sales performance, custom
 E-Commerce-Business-Performance-Analytics/
 │
 ├── Architecture/
-│   ├── project_architecture.png
+│   ├── Architecture.png
 │   └── README.md
 │
-├── Dashboard_Screenshots/
+├── Dashboard Screenshots/
 │   ├── 01_Executive_Dashboard.png
 │   ├── 02_Customer_Analytics.png
 │   ├── 03_Product_Analytics.png
@@ -509,11 +509,43 @@ E-Commerce-Business-Performance-Analytics/
 │   ├── er_diagram.png
 │   └── README.md
 │
+├── Dataset/
+│   ├── README.md
+│   ├── olist_customers_dataset.csv
+│   ├── olist_orders_dataset.csv
+│   ├── olist_order_items_dataset.csv
+│   ├── olist_order_payments_dataset.csv
+│   ├── olist_order_reviews_dataset.csv
+│   ├── olist_products_dataset.csv
+│   ├── olist_sellers_dataset.csv
+│   ├── product_category_name_translation.csv
+│   ├── olist_marketing_qualified_leads_dataset.csv
+│   └── olist_closed_deals_dataset.csv
+│
+├── Power BI/
+│   ├── README.md
+│   └── E-Commerce-Business-Performance-Analytics.pbix
+│
+├── Python/
+│   ├── README.md
+│   ├── 01_data_cleaning.py
+│   ├── 02_orders_analysis.py
+│   ├── 03_payments_analysis.py
+│   ├── ...
+│   └── 14_seller_concentration_analysis.py
+│
+├── SQL/
+│   ├── README.md
+│   ├── 01_average_delivery_time.sql
+│   ├── 02_late_delivery_percentage.sql
+│   ├── ...
+│   └── 14_view_category_revenue.sql
+│
 ├── .gitignore
 └── README.md
 ```
 
-The repository is organized into dedicated folders for architecture diagrams, database design, dashboard screenshots and project documentation. This structure improves readability, simplifies navigation and clearly represents each stage of the end-to-end analytics workflow.
+The repository is organized into dedicated folders for datasets, Python ETL scripts, SQL business queries, Power BI dashboards, database design, architecture diagrams and dashboard screenshots. Each folder contains its own README file to explain its purpose and contents, making the project easier to navigate and understand.
 
 ---
 
