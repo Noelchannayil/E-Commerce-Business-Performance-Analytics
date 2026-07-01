@@ -551,7 +551,7 @@ The repository is organized into dedicated folders for datasets, Python ETL scri
 
 ## Installation Guide
 
-Follow the steps below to explore the project documentation and dashboards.
+Follow the steps below to set up and explore the project locally.
 
 ### 1. Clone the Repository
 
@@ -559,37 +559,80 @@ Follow the steps below to explore the project documentation and dashboards.
 git clone https://github.com/Noelchannayil/E-Commerce-Business-Performance-Analytics.git
 ```
 
-### 2. Open the Repository
-
-Open the cloned repository using **Visual Studio Code** or any preferred code editor.
-
-### 3. Explore the Documentation
-
-The repository includes comprehensive documentation covering:
-
-- Project overview
-- Project architecture
-- Dataset overview
-- ETL pipeline
-- Database design
-- Entity Relationship Diagram (ERD)
-- Dashboard overview
-- Business insights
-
-### 4. View Dashboard Screenshots
-
-Navigate to the **Dashboard Screenshots** folder to explore all five Power BI dashboard pages, including:
-
-- Executive Dashboard
-- Customer Analytics Dashboard
-- Product Analytics Dashboard
-- Sales & Order Intelligence Dashboard
-- Insights & Recommendations Dashboard
-
-### 5. Review the Complete Analytics Workflow
-
-Explore the documentation sequentially to understand the complete analytics lifecycle—from raw e-commerce data and ETL processing to database design, dashboard development, and business insights.
 ---
+
+### 2. Navigate to the Project Folder
+
+```bash
+cd E-Commerce-Business-Performance-Analytics
+```
+
+---
+
+### 3. Install Python Dependencies
+
+Install the required Python libraries:
+
+```bash
+pip install pandas matplotlib
+```
+
+---
+
+### 4. Configure PostgreSQL
+
+- Create a PostgreSQL database.
+- Import the generated analytical dataset.
+- Execute the SQL scripts located in the `SQL/` folder to create analytical views.
+
+---
+
+### 5. Run the Python ETL Pipeline
+
+Execute the Python scripts in sequence:
+
+```
+01_data_cleaning.py
+↓
+02_orders_analysis.py
+↓
+03_payments_analysis.py
+↓
+...
+↓
+08_master_dataset.py
+↓
+...
+14_seller_concentration_analysis.py
+```
+
+---
+
+### 6. Open the Power BI Dashboard
+
+Open the `.pbix` file using **Microsoft Power BI Desktop**.
+
+Refresh the data source if required.
+
+---
+
+### 7. Explore the Repository
+
+The repository contains dedicated documentation for every stage of the project:
+
+- Architecture
+- Dataset
+- Python ETL
+- SQL Analysis
+- Database Design
+- Dashboard Screenshots
+- Power BI Dashboard
+
+---
+
+### 8. Review the Complete Analytics Workflow
+
+Explore the project sequentially to understand the complete analytics lifecycle—from raw e-commerce data and ETL processing to PostgreSQL modeling, SQL analysis, interactive Power BI dashboards and business insights.
 
 ## Future Enhancements
 
