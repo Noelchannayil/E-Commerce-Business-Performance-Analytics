@@ -510,17 +510,16 @@ E-Commerce-Business-Performance-Analytics/
 │   └── README.md
 │
 ├── Dataset/
-│   ├── README.md
-│   ├── olist_customers_dataset.csv
-│   ├── olist_orders_dataset.csv
-│   ├── olist_order_items_dataset.csv
-│   ├── olist_order_payments_dataset.csv
-│   ├── olist_order_reviews_dataset.csv
-│   ├── olist_products_dataset.csv
-│   ├── olist_sellers_dataset.csv
-│   ├── product_category_name_translation.csv
-│   ├── olist_marketing_qualified_leads_dataset.csv
-│   └── olist_closed_deals_dataset.csv
+│
+├── README.md
+├── olist_customers_dataset.csv
+├── olist_orders_dataset.csv
+├── ...
+├── product_category_name_translation.csv
+│
+├── External Download
+│   ├── master_ecommerce_dataset.csv
+│   └── olist_geolocation_dataset.csv
 │
 ├── Power BI/
 │   ├── README.md
