@@ -549,6 +549,33 @@ The repository is organized into dedicated folders for datasets, Python ETL scri
 
 ---
 
+## Dataset Access
+
+Most of the datasets used in this project are available directly in the **Dataset** folder of this repository.
+
+Due to GitHub's web upload size limitations, the following datasets could not be uploaded directly:
+
+| Dataset | Reason |
+|---------|--------|
+| `master_ecommerce_dataset.csv` | Final analytical dataset generated during the ETL process (large file). |
+| `olist_geolocation_dataset.csv` | Original Olist geolocation dataset (large file). |
+
+To ensure the repository remains complete, both datasets are available through the Google Drive folder below.
+
+### Google Drive
+
+**Dataset Download Link**
+
+👉 **https://drive.google.com/drive/u/3/folders/1ETrzZhfke-oO3XVl1mlV0l3j34CKimpZ**
+
+The folder contains:
+
+- `master_ecommerce_dataset.csv`
+- `olist_geolocation_dataset.csv`
+
+These files can be downloaded and placed inside the `Dataset` folder to recreate the complete project locally.
+
+---
 ## Installation Guide
 
 Follow the steps below to set up and explore the project locally.
