@@ -91,17 +91,37 @@ The datasets were processed using Python to perform:
 - Exploratory Data Analysis (EDA)
 
 ---
+---
 
-# Large Files
+# Large Dataset Files
 
-The following datasets are not included in this repository because they exceed GitHub's web upload size limit.
+GitHub's web interface restricts uploading large files. As a result, the following datasets are hosted externally.
 
-| File | Reason |
-|------|--------|
-| master_ecommerce_dataset.csv | Generated during the ETL process using `Python/08_master_dataset.py`. |
-| olist_geolocation_dataset.csv | Excluded due to GitHub web upload size limitations. |
+| Dataset | Description |
+|---------|-------------|
+| `master_ecommerce_dataset.csv` | Final merged analytical dataset created during the ETL pipeline. |
+| `olist_geolocation_dataset.csv` | Original Olist geolocation reference dataset. |
 
-The analytical dataset can be recreated by running the complete Python ETL pipeline available in the **Python** folder.
+## Download
+
+The datasets can be downloaded from the Google Drive folder below:
+
+**Google Drive Folder**
+
+👉 **https://drive.google.com/drive/u/3/folders/1ETrzZhfke-oO3XVl1mlV0l3j34CKimpZ**
+
+After downloading, place the files inside the project's **Dataset** folder.
+
+```
+Dataset/
+│
+├── master_ecommerce_dataset.csv
+├── olist_geolocation_dataset.csv
+```
+
+Once added, the repository will contain the complete set of datasets required to reproduce the entire ETL pipeline, SQL analysis and Power BI dashboard.
+
+---
 
 ---
 
